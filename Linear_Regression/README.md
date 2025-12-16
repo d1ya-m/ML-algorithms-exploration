@@ -4,9 +4,6 @@
 This project applies Linear Regression from scratch using Gradient Descent to predict a continuous numerical value from a structured tabular dataset. The goal is to understand how regression models learn relationships between features and a target variable.
 
 ## Dataset
-The dataset consists of multiple numerical features along with a continuous target variable to be predicted.  
-It was provided as part of a machine learning task phase and is suitable for regression-based modeling.
-
 **Target variable:** Car price (continuous value, e.g., in lakhs)  
 **Input features:** Year of manufacture, kilometers driven, mileage, engine capacity, power, number of seats, along with other vehicle attributes
 
@@ -20,14 +17,12 @@ To build a Linear Regression model that can accurately predict the target variab
 - Implemented a Linear Regression model from scratch using NumPy (manual weights, bias, and gradient descent) instead of using scikit-learn.
 - Tracked the cost (MSE) across iterations and evaluated the trained model on the test set using metrics like MSE, RMSE, and R² score.
 
-
 ## Key Concepts Explored
 - Linear relationship between car features (year, usage, mileage, engine size, power, seats) and target price.
 - Definition and implementation of the cost function (Mean Squared Error) and how gradient descent minimizes this error by updating weights and bias.
 - Importance of feature scaling (mean normalization/standardization) for stable and faster gradient descent.
 - Basic regression evaluation: interpreting RMSE and R² score to understand how well the model predicts unseen car prices.
-- - Underfitting & Ovrfitting and limitations of linear models
-
+- Underfitting & Ovrfitting and limitations of linear models
 
 ## Tools & Libraries
 - Python  
@@ -35,4 +30,5 @@ To build a Linear Regression model that can accurately predict the target variab
 - Pandas  
 - Scikit-learn  
 - Matplotlib  
+
 
